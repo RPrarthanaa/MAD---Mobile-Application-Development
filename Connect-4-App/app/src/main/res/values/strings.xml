@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Connect 4 App</string>
+    <string name="vsPlayer">vs Player</string>
+    <string name="vsAI">vs AI</string>
+    <string name="customizePlayer1">Customise Player 1</string>
+    <string name="customizePlayer2">Customise Player 2</string>
+    <string name="customizeAI">Customise AI</string>
+    <string name="customizeGame">Customise Game</string>
+    <string name="play">PLAY GAME!</string>
+    <string name="exit">Exit</string>
+    <string name="ai_flag">IS_VS_AI</string>
+
+    <string name="gridSizeLabel">Grid Size</string>
+    <string name="smallLabel">Small - (6x5)</string>
+    <string name="stdLabel">Standard - (7x6)</string>
+    <string name="largeLabel">Large - (8x7)</string>
+    <string name="selectColor">Choose Color</string>
+    <string name="saveSettings">Save Settings</string>
+    <string name="player1ColorLabel">Select Player 1 Disc Color</string>
+    <string name="player2ColorLabel">Select Player 2 Disc Color</string>
+    <string name="aiColorLabel">Select the AI Disc Color</string>
+
+    <!-- Colors -->
+    <string name="red">Red</string>
+    <string name="pink">Pink</string>
+    <string name="orange">Orange</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="purple">Purple</string>
+    <string name="pale_pink">Pale Pink</string>
+    <string name="brown">Brown</string>
+    <string name="yellow">Yellow</string>
+
+    <string name="changeAvatar">Change Avatar</string>
+    <string name="avatarSelection">Avatar Selection</string>
+    <string name="nameSelection">Name Selection</string>
+    <string name="newName">Enter your new name</string>
+    <string name="currentName">Current Name</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="swipeForAvatar">Swipe the screen to select an Avatar</string>
+
+    <string name="gameStatistics">Game Statistics</string>
+    <string name="totalGamesPlayed">Total Games Played</string>
+    <string name="wins">Wins</string>
+    <string name="losses">Losses</string>
+    <string name="winValue">0</string>
+    <string name="lossValue">0</string>
+    <string name="winPercentage">Win Percentage</string>
+    <string name="totalGamesPlayedVal">0</string>
+    <string name="winPercentageVal">0%</string>
+    <string name="return_button">Return</string>
+
+    <!-- GameBoard -->
+    <string name="playerTurn">%s to move</string>
+    <string name="playerWin">%s Wins!</string>
+    <string name="game_is_draw">Game is a draw!</string>
+    <string name="playerOneStats">Player 1 Stats</string>
+    <string name="playerTwoStats">Player 2 Stats</string>
+    <string name="resetGame">Reset Game</string>
+    <string name="undoMove">Undo Move</string>
+    <string name="goToSettings">Settings</string>
+
+    <!-- STATIC Strings -->
+    <string name="GRID_SIZE">SELECTED_GRID_SIZE</string>
+    <string name="PLAYER1_DISC">PLAYER_ONE_DISC_COLOR</string>
+    <string name="PLAYER2_DISC">PLAYER_TWO_DISC_COLOR</string>
+    <string name="player1Label">PLAYER_ONE_NAME</string>
+    <string name="player2Label">PLAYER_TWO_NAME</string>
+    <string name="player1Avatar">PLAYER_ONE_AVATAR</string>
+    <string name="player2Avatar">PLAYER_TWO_AVATAR</string>
+    <string name="game_board">SAVED GAME BOARD STATE</string>
+    <string name="isPlayer1Turn">IS PLAYER ONE TURN</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="3">
+
+    <RadioGroup
+        android:id="@+id/discColorRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/red"
+            android:textColor="@color/red" />
+
+        <RadioButton
+            android:id="@+id/radioBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blue"
+            android:textColor="@color/blue" />
+
+        <RadioButton
+            android:id="@+id/radioGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/green"
+            android:textColor="@color/green" />
+
+        <RadioButton
+            android:id="@+id/radioYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yellow"
+            android:textColor="@color/yellow" />
+
+        <RadioButton
+            android:id="@+id/radioPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/purple"
+            android:textColor="@color/purple" />
+
+        <RadioButton
+            android:id="@+id/radioOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/orange"
+            android:textColor="@color/orange" />
+
+        <RadioButton
+            android:id="@+id/radioPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pink"
+            android:textColor="@color/pink" />
+
+        <RadioButton
+            android:id="@+id/radioBrown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brown"
+            android:textColor="@color/brown" />
+
+        <RadioButton
+            android:id="@+id/radioPalePink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pale_pink"
+            android:textColor="@color/pale_pink" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

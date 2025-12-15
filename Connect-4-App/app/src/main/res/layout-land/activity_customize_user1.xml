@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <LinearLayout
+        android:id="@+id/avatarLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/avatar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/avatarSelection"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerMain1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/swipeAvatarText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/swipeForAvatar"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nameSelectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatarLayout1">
+
+        <TextView
+            android:id="@+id/nameSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/nameSelection"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nameSelectText1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/player_1"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveSettingsUser1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="@string/saveSettings"
+        android:textSize="15sp"
+        app:flow_horizontalBias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameSelectionLayout"
+        app:layout_constraintVertical_bias="0.338" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

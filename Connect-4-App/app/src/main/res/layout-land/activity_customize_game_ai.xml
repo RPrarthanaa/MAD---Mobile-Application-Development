@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@color/dark_blue"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/gridSizeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gridSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gridSizeLabel"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/gridSizeRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/smallLabel"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radioStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stdLabel"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radioLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/largeLabel"
+                android:textColor="@color/white" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/discColorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plOneColorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/player1ColorLabel"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/colorGridPlayer1"
+                layout="@layout/color_grid" />
+
+            <TextView
+                android:id="@+id/plTwoColorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/aiColorLabel"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/colorGridPlayer2"
+                layout="@layout/color_grid" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/saveSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/saveSettings" />
+</LinearLayout>

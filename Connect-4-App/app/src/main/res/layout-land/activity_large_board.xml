@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="-155dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="130dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/player1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/player1_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/default_avatar" />
+
+        <TextView
+            android:id="@+id/player1_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: Red"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="130dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/player2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 2"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/player2_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/default_avatar" />
+
+        <TextView
+            android:id="@+id/player2_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: Blue"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="164dp"
+        android:layout_height="202dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="@string/exit"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/goToSettings"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="164dp"
+        android:layout_height="202dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="@string/resetGame"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/undo_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/dark_green"
+            android:text="@string/undoMove"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/player1_stats_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/dark_green"
+            android:text="@string/playerOneStats"
+            android:textSize="11sp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/player2_stats_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/dark_green"
+            android:text="@string/playerTwoStats"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notification_message"
+        android:layout_width="296dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:columnCount="8"
+        android:rowCount="7"
+        app:layout_constraintBottom_toTopOf="@+id/notification_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

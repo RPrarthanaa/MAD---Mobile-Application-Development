@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.MainActivity"
+    android:background="@color/dark_blue">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoMain"
+        app:layout_constraintVertical_bias="0.088"
+        tools:layout_editor_absoluteX="2dp">
+
+        <Button
+            android:id="@+id/vsPlayerButton"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/dark_green"
+            android:text="@string/vsPlayer"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+        <Button
+            android:id="@+id/vsAIButton"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="110dp"
+            android:backgroundTint="@color/dark_green"
+            android:text="@string/vsAI"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="456dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logoMain"
+        android:layout_width="414dp"
+        android:layout_height="283dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178"
+        app:srcCompat="@drawable/connect4logo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
