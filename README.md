@@ -16,14 +16,6 @@ Part of my Software Engineering Degree at Curtin University Colombo in 2024. My 
     <th>Semester 2</th>
   </tr>
   <tr>
-    <td>2023</td>
-    <td>PDI</td>
-    <td>
-      <a href="https://github.com/RPrarthanaa/UCP---Unix-and-C-Programming">UCP</a>, 
-      <a href="https://github.com/RPrarthanaa/DSA---Data-Structures-and-Algorithms">DSA</a>
-    </td>
-  </tr>
-  <tr>
     <td>2024</td>
     <td>
       <a href="https://github.com/RPrarthanaa/OOSE---Object-Oriented-Software-Engineering">OOSE</a>, 
