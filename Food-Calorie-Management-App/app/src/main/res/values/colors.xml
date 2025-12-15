@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#d49434</color>
+    <color name="red">#770737</color>
+
+    <color name="calorie_green">#4CAF50</color>
+    <color name="calorie_orange">#FF9800</color>
+    <color name="calorie_red">#F44336</color>
+    <color name="calorie_light_gray">#D3D3D3</color>
+</resources>

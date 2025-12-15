@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Food Calorie Management App</string>
+    <string name="customise_goals">Customise Goals</string>
+    <string name="add_meal">Add a Meal</string>
+    <string name="view_meals">View Today\'s Meals</string>
+
+    <!-- item_meal -->
+    <string name="food_name_default">Food Name</string>
+    <string name="portion_size">Portion: 100g</string>
+    <string name="calories_default">Calories: 250 kcal</string>
+    <string name="meal_type">Type: Lunch</string>
+
+    <!-- view_meals -->
+    <string name="view_previous_day">View Previous Day</string>
+    <string name="back">Back</string>
+
+    <!-- search_for_food -->
+    <string name="title">Search For Food Item</string>
+    <string name="search_food_hint">Enter the food you want to find</string>
+    <string name="portion_size_hint">Portion Size (grams)</string>
+    <string name="default_portion_size">Default portion size is 100g</string>
+    <string name="search_button">Search</string>
+    <string name="food_name">Food Name:    </string>
+    <string name="calories">Calories:     </string>
+    <string name="serving_size">Serving Size:     </string>
+    <string name="fat_total">Fat Total:        </string>
+    <string name="saturated_fat">Saturated Fat:        </string>
+    <string name="protein">Protein:      </string>
+    <string name="sodium">Sodium:       </string>
+    <string name="potassium">Potassium:        </string>
+    <string name="cholesterol">Cholesterol:      </string>
+    <string name="carbohydrate_total">Carbohydrate Total:       </string>
+    <string name="fiber">Fiber:        </string>
+    <string name="sugar">Sugar:        </string>
+    <string name="select_button">Select</string>
+
+    <!-- customize_goals -->
+    <string name="calorie_goal_hint">Enter Calorie Goal (cal)</string>
+    <string name="save_goal_button">Save Goal</string>
+
+    <!-- add_meal -->
+    <string name="log_meal_title">LOG MEAL</string>
+    <string name="food_name_hint">Food Name</string>
+    <string name="calories_hint">Calories</string>
+    <string name="meal_type_breakfast">Breakfast</string>
+    <string name="meal_type_lunch">Lunch</string>
+    <string name="meal_type_dinner">Dinner</string>
+    <string name="meal_type_snack">Snack</string>
+    <string name="search_food_button">Search Food Item</string>
+    <string name="take_photo_button">Take Meal Photo</string>
+    <string name="upload_photo_button">Upload Photo From Gallery</string>
+    <string name="log_meal_button">Log Meal</string>
+</resources>

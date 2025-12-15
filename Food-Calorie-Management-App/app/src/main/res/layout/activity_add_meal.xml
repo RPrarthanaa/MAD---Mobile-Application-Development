@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MealActivities.AddMealActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/log_meal_title"
+        android:textAlignment="center"
+        android:layout_marginBottom="8dp"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:id="@+id/foodDetailsInput"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/foodDetailsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Meal Details"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/foodNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/food_name_hint"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/portionSizeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/portion_size_hint"
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/caloriesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/calories_hint"
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+    <!-- RadioGroup for selecting meal type -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Meal Type"
+        android:textStyle="italic" />
+
+    <RadioGroup
+        android:id="@+id/mealTypeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/breakfastRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/meal_type_breakfast" />
+
+        <RadioButton
+            android:id="@+id/lunchRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/meal_type_lunch" />
+
+        <RadioButton
+            android:id="@+id/dinnerRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/meal_type_dinner" />
+
+        <RadioButton
+            android:id="@+id/snackRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/meal_type_snack" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/mealImageView"
+        android:layout_width="203dp"
+        android:layout_height="233dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Meal Image"
+        android:paddingTop="0dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/searchFoodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/search_food_button" />
+
+        <Button
+            android:id="@+id/takePhotoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/take_photo_button" />
+
+        <Button
+            android:id="@+id/selectFromGalleryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/red"
+            android:text="@string/upload_photo_button" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logMealButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/calorie_green"
+        android:text="@string/log_meal_button" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/calorie_light_gray"
+        android:text="@string/back" />
+</LinearLayout>

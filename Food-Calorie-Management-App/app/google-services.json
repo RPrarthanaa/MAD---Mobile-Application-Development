@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "288147579955",
+    "project_id": "food-calorie-management-97bb5",
+    "storage_bucket": "food-calorie-management-97bb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288147579955:android:447e06eccb30f7a14d6f46",
+        "android_client_info": {
+          "package_name": "com.example.foodcaloriemanagementapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUWzXBBFbeX2aQ0yOTOQbWP3ySvPI-P40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

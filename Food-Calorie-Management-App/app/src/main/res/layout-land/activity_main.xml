@@ -1,0 +1,93 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".MainActivities.MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="328dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toStartOf="@+id/calorieProgressFrame"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/calorieProgressFrame"
+        android:layout_width="287dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logoImageView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/circularProgressIndicator"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="false"
+            android:max="2000"
+            android:progress="0"
+            app:indicatorColor="@color/calorie_green"
+            app:indicatorSize="240dp"
+            app:trackColor="@color/calorie_light_gray"
+            app:trackThickness="30dp" />
+
+        <TextView
+            android:id="@+id/calorieSummaryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0 cal / 2000 cal"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calorieProgressFrame"
+        android:layout_marginHorizontal="16dp">
+
+        <Button
+            android:id="@+id/addMealButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/red"
+            android:text="Add a Meal" />
+
+        <Button
+            android:id="@+id/customizeGoalsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/calorie_green"
+            android:text="Customize Goals" />
+
+        <Button
+            android:id="@+id/viewMealsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:backgroundTint="@color/red"
+            android:text="View Today's Meals" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
