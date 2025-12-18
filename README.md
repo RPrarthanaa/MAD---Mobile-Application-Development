@@ -24,7 +24,7 @@ Part of my Software Engineering Degree at Curtin University Colombo in 2024. My 
     <td>
       <a href="https://github.com/RPrarthanaa/MAD---Mobile-Application-Development">MAD</a>, 
       <a href="https://github.com/RPrarthanaa/DC---Distributed-Computing">DC</a>, 
-      <a href="https://github.com/RPrarthanaa/DBS---Database-Systems">DBS</a>, 
+      <a href="https://github.com/RPrarthanaa/DS---Database-Systems">DS</a>, 
       <a href="https://github.com/RPrarthanaa/CCSEP---Cyber Crime and Security Enhanced Programming">CCSEP</a>
     </td>
   </tr>
