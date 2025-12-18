@@ -25,14 +25,13 @@ Part of my Software Engineering Degree at Curtin University Colombo in 2024. My 
       <a href="https://github.com/RPrarthanaa/MAD---Mobile-Application-Development">MAD</a>, 
       <a href="https://github.com/RPrarthanaa/DC---Distributed-Computing">DC</a>, 
       <a href="https://github.com/RPrarthanaa/DS---Database-Systems">DS</a>, 
-      <a href="https://github.com/RPrarthanaa/CCSEP---Cyber Crime and Security Enhanced Programming">CCSEP</a>
+      <a href="https://github.com/RPrarthanaa/CCSEP---Cyber-Crime-and-Security-Enhanced-Programming">CCSEP</a>
     </td>
   </tr>
   <tr>
     <td>2025</td>
     <td></td>
     <td>
-      <a href="https://github.com/RPrarthanaa/CCP2---Capstone-Computing-Project-2">CCP2</a>, 
       <a href="https://github.com/RPrarthanaa/SAED---Software-Architecture-and-Extensible-Design">SAED</a>
     </td>
   </tr>
